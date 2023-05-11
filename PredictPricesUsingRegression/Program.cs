@@ -6,10 +6,11 @@ const string label = "Label";
 const string encode = "Encoded";
 const string feature = "Features";
 const string score = "Score";
+const string data = "Data";
 
-string _trainDataPath = Path.Combine(Environment.CurrentDirectory, "Data", "taxi-fare-train.csv"),
-       _testDataPath = Path.Combine(Environment.CurrentDirectory, "Data", "taxi-fare-test.csv"),
-       _modelPath = Path.Combine(Environment.CurrentDirectory, "Data", "Model.zip");
+string _trainDataPath = Path.Combine(Environment.CurrentDirectory, data, "taxi-fare-train.csv"),
+       _testDataPath = Path.Combine(Environment.CurrentDirectory, data, "taxi-fare-test.csv"),
+       _modelPath = Path.Combine(Environment.CurrentDirectory, data, "Model.zip");
 
 var context = new MLContext(seed: 0);
 
@@ -46,7 +47,6 @@ void Evaluate(MLContext context, ITransformer model)
 
     var metrics = context.Regression.Evaluate(predictions, label, score);
 
-    Console.WriteLine();
     Console.WriteLine($"*************************************************");
     Console.WriteLine($"*       Model quality metrics evaluation         ");
     Console.WriteLine($"*------------------------------------------------");
