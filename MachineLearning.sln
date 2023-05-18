@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectDetection", "ObjectDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextClassificationTF", "TextClassificationTF\TextClassificationTF.csproj", "{2E1CDC09-B6AB-4A9B-A864-C42A37E7A403}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Probabilistic", "Probabilistic\Probabilistic.csproj", "{37A482DC-B8C5-41D6-A78F-1024EB5B4D00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{2E1CDC09-B6AB-4A9B-A864-C42A37E7A403}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E1CDC09-B6AB-4A9B-A864-C42A37E7A403}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E1CDC09-B6AB-4A9B-A864-C42A37E7A403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37A482DC-B8C5-41D6-A78F-1024EB5B4D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37A482DC-B8C5-41D6-A78F-1024EB5B4D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37A482DC-B8C5-41D6-A78F-1024EB5B4D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37A482DC-B8C5-41D6-A78F-1024EB5B4D00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
