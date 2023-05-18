@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductSalesAnomalyDetectio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectDetection", "ObjectDetection\ObjectDetection.csproj", "{0BEA0339-848B-450A-A064-174372AAAE73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextClassificationTF", "TextClassificationTF\TextClassificationTF.csproj", "{2E1CDC09-B6AB-4A9B-A864-C42A37E7A403}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{0BEA0339-848B-450A-A064-174372AAAE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BEA0339-848B-450A-A064-174372AAAE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BEA0339-848B-450A-A064-174372AAAE73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E1CDC09-B6AB-4A9B-A864-C42A37E7A403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1CDC09-B6AB-4A9B-A864-C42A37E7A403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1CDC09-B6AB-4A9B-A864-C42A37E7A403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1CDC09-B6AB-4A9B-A864-C42A37E7A403}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
