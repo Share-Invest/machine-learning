@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepLearning_ImageClassific
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeDemandForecasting", "BikeDemandForecasting\BikeDemandForecasting.csproj", "{20CB9D46-9707-4D61-A3A7-0A4F1DE734D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneCallsAnomalyDetection", "PhoneCallsAnomalyDetection\PhoneCallsAnomalyDetection.csproj", "{28EE9531-AFB9-4351-B067-47AAB6269574}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{20CB9D46-9707-4D61-A3A7-0A4F1DE734D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20CB9D46-9707-4D61-A3A7-0A4F1DE734D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20CB9D46-9707-4D61-A3A7-0A4F1DE734D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28EE9531-AFB9-4351-B067-47AAB6269574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28EE9531-AFB9-4351-B067-47AAB6269574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28EE9531-AFB9-4351-B067-47AAB6269574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28EE9531-AFB9-4351-B067-47AAB6269574}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
