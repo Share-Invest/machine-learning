@@ -21,6 +21,19 @@ partial class ImageClassification : Form
 
         Run();
     }
+    void ClassifyImage(IDataView data, ITransformer trainedModel)
+    {
+        IDataView predictionData = trainedModel.Transform(data);
+
+        var predictions = context.Data.CreateEnumerable<ModelOutput>(predictionData, true).Take(10);
+
+        Debug.WriteLine("classifying multiple images");
+
+        foreach (var prediction in predictions)
+        {
+            OutputPrediction(prediction);
+        }
+    }
     void ClassifySingleImage(IDataView data, ITransformer trainedModel)
     {
         var predictionEngine =
@@ -72,7 +85,8 @@ partial class ImageClassification : Form
             MetricsCallback = (metrics) => Debug.WriteLine(metrics),
             TestOnTrainSet = false,
             ReuseTrainSetBottleneckCachedValues = true,
-            ReuseValidationSetBottleneckCachedValues = true
+            ReuseValidationSetBottleneckCachedValues = true,
+            WorkspacePath = workspaceRelativePath
         };
         var trainingPipeline =
 
@@ -83,8 +97,10 @@ partial class ImageClassification : Form
         ITransformer trainedModel = trainingPipeline.Fit(trainSet);
 
         ClassifySingleImage(testSet, trainedModel);
+
+        ClassifyImage(testSet, trainedModel);
     }
-    IEnumerable<ImageData> LoadImagesFromDirectory(string folder, bool useFolderNameAsLabel = true)
+    static IEnumerable<ImageData> LoadImagesFromDirectory(string folder, bool useFolderNameAsLabel = true)
     {
         foreach (var file in Directory.GetFiles(folder, "*", searchOption: SearchOption.AllDirectories))
         {
