@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepLearningImageClassifica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepLearning_ImageClassification_Binary", "DeepLearning_ImageClassification_Binary\DeepLearning_ImageClassification_Binary.csproj", "{CD8BC2F7-85A5-4BDC-B46B-15639CC6B3F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeDemandForecasting", "BikeDemandForecasting\BikeDemandForecasting.csproj", "{20CB9D46-9707-4D61-A3A7-0A4F1DE734D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{CD8BC2F7-85A5-4BDC-B46B-15639CC6B3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD8BC2F7-85A5-4BDC-B46B-15639CC6B3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD8BC2F7-85A5-4BDC-B46B-15639CC6B3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CB9D46-9707-4D61-A3A7-0A4F1DE734D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CB9D46-9707-4D61-A3A7-0A4F1DE734D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CB9D46-9707-4D61-A3A7-0A4F1DE734D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CB9D46-9707-4D61-A3A7-0A4F1DE734D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
