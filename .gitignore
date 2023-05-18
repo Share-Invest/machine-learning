@@ -147,6 +147,8 @@ _TeamCity*
 .axoCover/*
 !.axoCover/settings.json
 
+appsettings.json
+
 # Coverlet is a free, cross platform Code Coverage Tool
 coverage*.json
 coverage*.xml
@@ -366,3 +368,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+*.zip
