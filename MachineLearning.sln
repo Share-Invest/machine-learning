@@ -15,21 +15,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrisFlowerClustering", "Iri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieRecommender", "MovieRecommender\MovieRecommender.csproj", "{90BFA8A8-BAFD-4701-9D44-41BF8996EB2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepLearningImageClassificationBinary", "DeepLearningImageClassificationBinary\DeepLearningImageClassificationBinary.csproj", "{FB9209FB-A792-44EB-9431-681EA671D4FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeepLearningImageClassificationBinary", "DeepLearningImageClassificationBinary\DeepLearningImageClassificationBinary.csproj", "{FB9209FB-A792-44EB-9431-681EA671D4FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepLearning_ImageClassification_Binary", "DeepLearning_ImageClassification_Binary\DeepLearning_ImageClassification_Binary.csproj", "{CD8BC2F7-85A5-4BDC-B46B-15639CC6B3F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeepLearning_ImageClassification_Binary", "DeepLearning_ImageClassification_Binary\DeepLearning_ImageClassification_Binary.csproj", "{CD8BC2F7-85A5-4BDC-B46B-15639CC6B3F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeDemandForecasting", "BikeDemandForecasting\BikeDemandForecasting.csproj", "{20CB9D46-9707-4D61-A3A7-0A4F1DE734D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeDemandForecasting", "BikeDemandForecasting\BikeDemandForecasting.csproj", "{20CB9D46-9707-4D61-A3A7-0A4F1DE734D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneCallsAnomalyDetection", "PhoneCallsAnomalyDetection\PhoneCallsAnomalyDetection.csproj", "{28EE9531-AFB9-4351-B067-47AAB6269574}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneCallsAnomalyDetection", "PhoneCallsAnomalyDetection\PhoneCallsAnomalyDetection.csproj", "{28EE9531-AFB9-4351-B067-47AAB6269574}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductSalesAnomalyDetection", "ProductSalesAnomalyDetection\ProductSalesAnomalyDetection.csproj", "{A9A5C872-2CF9-4AC1-805C-43E7583AAEA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductSalesAnomalyDetection", "ProductSalesAnomalyDetection\ProductSalesAnomalyDetection.csproj", "{A9A5C872-2CF9-4AC1-805C-43E7583AAEA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectDetection", "ObjectDetection\ObjectDetection.csproj", "{0BEA0339-848B-450A-A064-174372AAAE73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectDetection", "ObjectDetection\ObjectDetection.csproj", "{0BEA0339-848B-450A-A064-174372AAAE73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextClassificationTF", "TextClassificationTF\TextClassificationTF.csproj", "{2E1CDC09-B6AB-4A9B-A864-C42A37E7A403}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextClassificationTF", "TextClassificationTF\TextClassificationTF.csproj", "{2E1CDC09-B6AB-4A9B-A864-C42A37E7A403}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Probabilistic", "Probabilistic\Probabilistic.csproj", "{37A482DC-B8C5-41D6-A78F-1024EB5B4D00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Probabilistic", "Probabilistic\Probabilistic.csproj", "{37A482DC-B8C5-41D6-A78F-1024EB5B4D00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentenceSimilarity", "SentenceSimilarity\SentenceSimilarity.csproj", "{CB108C62-006E-4E69-8068-BB239590E914}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{37A482DC-B8C5-41D6-A78F-1024EB5B4D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37A482DC-B8C5-41D6-A78F-1024EB5B4D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37A482DC-B8C5-41D6-A78F-1024EB5B4D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB108C62-006E-4E69-8068-BB239590E914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB108C62-006E-4E69-8068-BB239590E914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB108C62-006E-4E69-8068-BB239590E914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB108C62-006E-4E69-8068-BB239590E914}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
